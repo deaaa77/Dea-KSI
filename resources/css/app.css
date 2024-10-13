@@ -1,0 +1,34 @@
+    .banner-area {
+    position: relative;
+    background-color: #f5f5f5; /* Bisa diganti sesuai tema warna */
+    padding: 100px 0; /* Memberi ruang yang cukup untuk banner */
+}
+
+.banner-content h1 {
+    font-size: 48px; /* Ukuran teks yang besar agar menarik */
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner-img {
+    position: absolute; /* Mengubah posisi gambar menjadi absolute */
+    top: 0;
+    right: 0;
+    width: 60%; /* Ukuran lebih besar */
+    height: auto;
+    max-width: none;
+    z-index: -1; /* Mengatur agar berada di belakang teks */
+}
+
+.banner-img img {
+    width: 100%; /* Menyesuaikan gambar dengan ukuran div */
+    height: auto;
+    object-fit: cover;
+}
+
+
